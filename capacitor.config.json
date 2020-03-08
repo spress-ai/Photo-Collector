@@ -1,0 +1,8 @@
+{
+  "appId": "ai.spress.photo-collector",
+  "appName": "Photo Collector",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Explanations</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button fill="clear" (click)="closeModal()">
+        <ion-icon slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ol class="explanationList">
+    <li>
+      <h1>Always keep the face of the emoji</h1>
+      <p>The app takes a photo every 300ms so you have to keep the face of the emoji constantly</p>
+    </li>
+
+    <li>
+      <h1>Move !</h1>
+      <p>The goal is to have lots of different photos so go forward, backward, go left, go right, etc!</p>
+      <p>Don't stay in one place for too long</p>
+    </li>
+
+    <li>
+      <h1>3 second countdown!</h1>
+      <p>When you will click on Start, a 3 second countdown will take place before starting to take photos</p>
+    </li>
+
+
+
+    <li>
+      <h1>Here is an example !</h1>
+      <img src="../../assets/example.gif" />
+    </li>
+  </ol>
+
+  <ion-button class="letsGoButton" (click)="closeModal()">Let's Go !</ion-button>
+
+</ion-content>

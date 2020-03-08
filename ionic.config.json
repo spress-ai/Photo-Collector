@@ -1,0 +1,8 @@
+{
+  "name": "emoji",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

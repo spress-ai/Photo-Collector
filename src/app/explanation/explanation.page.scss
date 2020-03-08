@@ -1,0 +1,15 @@
+.explanationList {
+    color: white;
+    padding-right: 20px;
+}
+
+.letsGoButton {
+    margin: 10px auto 25px auto;
+    display: block;
+    width: fit-content;
+    --background: linear-gradient(315deg, #ee7017 0%, #fe5858 74%);
+    --background-hover: linear-gradient(315deg, #ee7017 0%, #ff1a1a 74%);
+    --background-activated: linear-gradient(315deg, #ee7017 0%, #ff1a1a 74%);
+    --background-focused: linear-gradient(315deg, #ee7017 0%, #ff1a1a 74%);
+    --border-radius: 8px;
+}
